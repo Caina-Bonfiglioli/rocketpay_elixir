@@ -7,7 +7,7 @@ defmodule Rocketpay.User do
 
   @primary_key {:id, :binary_id, autogenerate: true}
 
-  @required_params [:name, :email, :password, :nickname]
+  @required_params [:name, :email, :password, :nickname, :age]
 
   schema "users" do
     field :name, :string
